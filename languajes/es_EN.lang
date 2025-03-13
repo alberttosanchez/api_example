@@ -1,0 +1,89 @@
+/* Traducciones de Español a Ingles */
+
+/* Traducciones de la api para mensajes de respuestas con errores*/
+Los archivos exceden la capacidad permitida de carga. | The files exceed the allowed upload capacity.
+Faltan parametros. | Parameters are missing.
+Contacte al administrador. | Contact the administrator.
+Ejecucion incorrecta. | Incorrect execution.
+Contacte al administrador de sistemas. | Contact your systems administrator.
+El nombre de usuario ya existe. | The username already exists.
+El correo electrónico ya existe. | The email already exists.
+Usuario registrado correctamente. | Successfully registered user.
+Token Expirado | Expired Token
+Cuenta confirmada ahora puede iniciar sesión. | Confirmed account can now log in.
+Contraseña cambiada correctamente. | Password changed successfully.
+Error. Faltan parametros. | Error. Parameters are missing.
+Si el correo es válido recibirá un mensaje de recuperación en su bandeja de entrada. | If the email is valid, you will receive a recovery message in your inbox.
+El usuario o contraseña es incorrecto. | The username or password is incorrect.
+Sesión Iniciada Correctamente. | Session Started Successfully.
+
+
+/* Traducciones de validacion de formulario */
+El nombre debe tener al menos 3 caracteres. | The name must be at least 3 characters.
+El apellido debe tener al menos 3 caracteres. | The last name must be at least 3 characters.
+El nombre de usuario debe tener al menos 3 y un máximo de 100 caracteres. | The username must be at least 3 and a maximum of 100 characters.
+Escriba su correo electrónico. Solo se permiten letras, numero puntos (.), guiones (-) y guiones bajos (_). | Write your email. Only letters, numbers, periods (.), hyphens (-) and underscores (_) are allowed.
+La contraseña debe tener entre 8 y 100 caracteres. | The password must be between 8 and 100 characters.
+
+///////////////////////////////////////////////////////////
+
+/* Traducciones en el menu principal en header */
+Inicio | Home
+Destinos | Destinations
+Nosotros | About Us
+Blog | Blog
+Contacto | Contact
+Entrar | Sign&nbsp;in
+
+/* Traducciones del home slider */
+Punta Cana, Republica Dominicana | Punta Cana, Dominican Republic
+¡Bienvenido al paraíso de Punta Cana! Nuestro tour de Punta Cana ofrece una experiencia completa para descubrir los tesoros de esta región del Caribe. | Welcome to the paradise of Punta Cana! Our Punta Cana tour offers a complete experience to discover the treasures of this region of the Caribbean.
+
+/* Traducciones de la seccion buscar en home */
+Busca tour en tu próximo destino | Find a tour in your next destination
+Destino | Destination
+Ingresa el destino | Enter the destination
+Fecha | Date
+Ingresa la fecha | Enter the date
+Cupos | Quotas
+Ingresa la cantidad de Cupos | Enter the number of Quotas
+Buscar | Search
+
+/* Traducciones de la seccion the_most_searched_section */
+Lo más buscado | The most searched
+de duración | of duration
+persona | person
+
+/* Traducciones de la seccion new_posts_section */
+Nuevos ingresos | New posts
+
+/* Traducciones de la seccion new_posts_section */
+Tus búsquedas | Your searches
+
+/* Traducciones de la pagina de inicio de sesion */
+Descubre la <span>BELLEZA</span> de República Dominicana con nosotros | Discover the <span>BEAUTY</span> of the Dominican Republic with us
+Iniciar Sesión | Login
+Escribe tu email | Write you email
+Contraseña | Password
+Olvidé mi contraseña | I forgot my password
+Regístrate | Sign up
+Todavia no tienes cuenta? | Still don't have an account?
+Volver a inicio | Go back to start
+
+/* Traducciones de la pagina de registro */
+Registro | Sign Up
+Usuario | User
+Agencia | Agency
+Escribe tu nombre de usuario | Enter your username
+Acepto los | I accept the
+terminos y condiciones | terms and conditions
+Tienes una cuenta? | Do you have an account?
+Inicia sesión | Sign in
+
+/* Traducciones en el Footer */
+Idioma | Language
+Redes | Networks
+Política de privacidad | Privacy Policy
+Cookies | Cookies
+Preferencias de marketing | Marketing preferences
+Términos y condiciones | Terms and Conditions

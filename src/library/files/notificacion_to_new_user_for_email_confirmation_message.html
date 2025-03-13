@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />     
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sumate</title>
+        <style type="text/css">
+            table#msg-table {
+                border: 1px solid #00BCD4;
+                padding: 10px;
+                width: 100%;
+                max-width: 768px;
+                border-radius: 5px;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+            }
+            table#msg-table > tbody > tr > td {
+                /* background-color: red; */
+                height: 100px;
+                width: 30%;
+            }
+            /* img.smt_logo {
+                width: 100%;
+            }
+            img.sigprosmt_slogan {
+                width: 100%;
+            } */
+            .btn{
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 1px 1px 3px #676464;
+            }
+            .btn-primary {
+                background-color: rgb(0, 132, 255);
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .btn-primary:hover {
+                background-color: rgb(83, 171, 253);
+            }            
+            .Message__body > a {
+                margin: auto;
+                justify-content: center;
+                display: flex;                                
+                width: 100%;
+                max-width: 100px;
+                text-align: center;
+            }
+            .Message__body > span {
+                display: block;
+                margin: auto;
+                text-align: center;
+            }
+            span.warning-text{
+                text-align: justify;
+                font-size: 0.7em;
+                color:#595a62;
+            }
+            span.warning-text > p:first-child{
+                color: green;
+            }
+            .token_url{
+                display: block;
+                width: 100%;
+                max-width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="msg-table">          
+            <tbody>                                            
+                <tr class="msg-header">                    
+                    <td colspan="3" align="center">
+                        <div><a href="https://sumate.com.do" target="_blank" rel="noopener noreferrer"><img class="smt_logo" width="100px" src="https://sumate.com.do/assets/images/sumate.logo.png" alt="Sumate - Logo"></a></div>
+                        <h1>Bienvenido a Sumate</h1>
+                        <span>Hola, {user_name}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <main  class="Message__body">                            
+                            <p>Para poder confirmar su correo electrónico, presiona el boton de CONFIRMAR CORREO más abajo.</p>
+                            <div align="center" >
+                                <a class="active-button btn btn-primary" href="{url}" target="_blank" rel="noopener noreferrer">CONFIRMAR CORREO</a>
+                            </div>
+                            <br>
+                            <p>Si por alguna razon su navegador no abre automaticamente copia y pegue la siguiente dirección en la barra de direcciones de su navegador:</p>                    
+                            <span class="token_url">{url}</span>
+                        </main>
+                    </td>
+                </tr>         
+                <tr>
+                    <td colspan="3">
+                        <footer class="Message__footer">
+                            <span class="warning-text">
+                                <p><b>¡Antes de imprimir piensa en el medio ambiente!</b></p> 
+                                <p><b>AVISO DE CONFIDENCIALIDAD:</b> Este mensaje puede contener información privilegiada y confidencial. Dicha información es exclusivamente para el uso del individuo o entidad al cual es enviada. Si el lector de este mensaje no es el destinatario del mismo, queda formalmente notificado que cualquier divulgación, distribución, reproducción o copiado de esta comunicación está estrictamente prohibido. Si este es el caso, favor de eliminar el mensaje de su computadora e informar al emisor a través de un mensaje de respuesta. Las opiniones expresadas en este mensaje son propias del autor y no necesariamente coinciden con las de Sumate. Gracias.</p>
+                                <p><b>CONFIDENTIALITY NOTICE:</b> This message may contain information that is privileged and confidential. It is intended only for the use of the individual or entity to which it is addressed. If the reader of this message is not the intended recipient, you are hereby notified that any dissemination, distribution, reproduction or copying of this communication is strictly prohibited. If this is the case, please proceed to destroy the message from your computer and inform the sender through reply mail. Information in this message that does not directly relate to the official business of the company shall be understood as neither given nor endorsed by it Sumate. Thank you.</p>
+                            </span>
+                        </footer>
+                    </td>
+                </tr>              
+            </tbody>              
+        </table>
+              
+    </body>
+</html>

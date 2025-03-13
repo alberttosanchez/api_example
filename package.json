@@ -1,0 +1,25 @@
+{
+  "name": "conocetupais-crm",
+  "version": "1.0.0",
+  "description": "Api del backend para conocetupais.com.do",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "phpdoc": "phpdoc.bat" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alberttosanchez@bitbucket.org/alberttosanchez/crm_conoce_tu_pais_lab.git"
+  },
+  "keywords": [
+    "crm",
+    "conocetupais",
+    "project"
+  ],
+  "author": "Alberto Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/alberttosanchez/crm_conoce_tu_pais_lab/issues"
+  },
+  "homepage": "https://bitbucket.org/alberttosanchez/crm_conoce_tu_pais_lab#readme"
+}

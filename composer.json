@@ -1,0 +1,27 @@
+{
+    "name": "conocetupais/crm",
+    "description": "Api del backend para conocetupais.com.do",
+    "type": "project",        
+    "autoload": {
+        "psr-4": {
+            "Conocetupais\\Crm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alberto Sanchez",
+            "email": "ing.albertosanchez@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    },
+    "scripts": {
+        "phpdoc": "phpdoc.bat"        
+    },
+    "require": {
+        "firebase/php-jwt": "^6.4"
+    }
+}

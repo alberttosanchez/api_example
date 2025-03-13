@@ -1,0 +1,20 @@
+# BEGIN 
+
+# index.php unica entrada a la app
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /index.php
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Headers "Access-Control-Request-Method, X-API-KEY, Authorization, Access-Control-Allow-Headers, Origin, X-Requested-With, Content-Type, Accept, X-Custom-Header"        
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"    
+</IfModule>

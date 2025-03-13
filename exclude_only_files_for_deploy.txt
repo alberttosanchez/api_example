@@ -1,0 +1,25 @@
+/* fles to ignore */
+.old
+.bk
+.git
+.gitignore
+.htaccess
+.htaccess.txt
+exclude_files_and_folders_for_deploy.txt
+exclude_only_files_for_deploy.txt
+phpdoc.bat
+deployer.bat
+aws_linux_key.ppk
+aws_linux_key.pem
+phpinfo.php
+test.php
+
+/* directories to ignore */
+\vendor\
+\node_modules\
+\.phpdoc\
+\.git\
+\admin\setting.php
+\public\uploads\
+
+
